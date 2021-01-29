@@ -1,6 +1,6 @@
 {%macro image_viewer(props) %}
   <div class="image-viewer">
-  <span>{{props.src}}</span>
+  <span>{{props.src | path }}</span>
     <img src="{{ props.src | path  }}"/>
   </div>
 {% endmacro %}
