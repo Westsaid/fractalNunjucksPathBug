@@ -1,0 +1,9 @@
+{% from '@image-viewer' import image_viewer with context %}
+<main id="main">
+    {%
+            set productTeaserContent = {
+              src: '/assets/img/test.png'
+            }
+          %}
+          {{ image_viewer(props=productTeaserContent) }}
+</main>

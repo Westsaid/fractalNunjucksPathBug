@@ -1,0 +1,9 @@
+notes: ''
+variants:
+  - name: default
+    context:
+      props:
+        {
+          test: 'asd',
+          src: '/assets/img/test.png',
+        }

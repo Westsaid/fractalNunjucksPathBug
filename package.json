@@ -1,0 +1,18 @@
+{
+  "name": "fractal-nunjucks-path-fail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fractal start --sync",
+    "build": "fractal build",
+    "build:webpack": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@frctl/fractal": "^1.5.2",
+    "@frctl/nunjucks": "^2.0.6"
+  }
+}
